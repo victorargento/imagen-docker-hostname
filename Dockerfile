@@ -1,7 +1,8 @@
 FROM node:7-alpine
 
-WORKDIR /src
-ADD node/ .
+WORKDIR /app
+
+ADD . .
 
 RUN npm install
 
